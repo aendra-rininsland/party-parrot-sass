@@ -1,6 +1,6 @@
 # ![parrot][left] PARTY PARROT SASS MIXIN!!!! ![parrot][right]
-## USE THIS TO BRING THE PARTY EVERYWHERE!
-## ![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]
+# USE THIS TO BRING THE PARTY EVERYWHERE!
+![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]
 
 ### TO USE!!!!
 

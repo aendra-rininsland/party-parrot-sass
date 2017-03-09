@@ -1,0 +1,23 @@
+{
+  "name": "party-parrot-sass",
+  "description": "SaSs MiXiN To BrInG ThE pArTy!!!!11!",
+  "main": "_main.scss",
+  "authors": [
+    "Ændrew Rininsland <aendrew@aendrew.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "sass",
+    "mixins",
+    "party",
+    "parrot"
+  ],
+  "homepage": "https://github.com/aendrew/party-parrot-sass",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

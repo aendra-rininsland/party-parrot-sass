@@ -1,0 +1,47 @@
+/**
+ * PARTY PARROT SASS MIXIN!!!!!
+ * ----------------------------
+ * 2017 Ændrew Rininsland (@aendrew)
+ * I am so, so sorry.
+ * (btw: hi @chrishutchinson <3)
+ */
+
+@mixin parrot($prop: background-color, $speed: 0.5s, $direction: normal) {
+  animation-name: parrot;
+  animation-duration: $speed;
+  animation-direction: $direction;
+  animation-iteration-count: infinite;
+
+  @keyframes parrot {
+    0% {
+      #{$prop}: #FD8E8D;
+    }
+    10% {
+      #{$prop}: #FDD58E;
+    }
+    20% {
+      #{$prop}: #8CFD8E;
+    }
+    30% {
+      #{$prop}: #8CFFFE;
+    }
+    40% {
+      #{$prop}: #8DB6FB;
+    }
+    50% {
+      #{$prop}: #D690FC;
+    }
+    60% {
+      #{$prop}: #FD90FD;
+    }
+    70% {
+      #{$prop}: #FD6EF4;
+    }
+    80% {
+      #{$prop}: #FC6FB6;
+    }
+    90% {
+      #{$prop}: #FD6A6B;
+    }
+  }
+}

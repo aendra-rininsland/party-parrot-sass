@@ -5,7 +5,8 @@
   "main": "_main.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass index.scss > dist/built.css"
+    "build": "node-sass --importer node_modules/node-sass-module-importer index.scss -o dist/",
+    "watch": "node-sass -w --importer node_modules/node-sass-module-importer index.scss -o dist/"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,12 @@
   },
   "homepage": "https://github.com/aendrew/party-parrot-sass#readme",
   "devDependencies": {
-    "node-sass": "^4.5.0"
+    "node-sass": "^4.5.0",
+    "node-sass-module-importer": "^0.1.0"
+  },
+  "dependencies": {
+    "Bitters": "github:thoughtbot/bitters",
+    "bourbon": "github:thoughtbot/bourbon",
+    "normalize-scss": "^6.0.0"
   }
 }

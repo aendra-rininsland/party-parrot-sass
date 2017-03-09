@@ -2,32 +2,120 @@
 <html>
 <head>
   <title>pArTy-PaRrOt-SaSs: THE PARROT COMPELS YOU</title>
-  <link rel="stylesheet" href="dist/built.css" />
+  <link rel="stylesheet" href="dist/index.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
 </head>
 <body>
   <div class="container">
-    <h1>PARTY-PARROT-SASS</h1>
-    <h2>MAKE EVERYTHING THIS COLOURFUL</h2>
+    <h3>
+      <img src="left.gif" /><img src="left.gif" /><img src="left.gif" /><img src="left.gif" />
+      <img src="right.gif" /><img src="right.gif" /><img src="right.gif" /><img src="right.gif" />
+    </h3>
+
+    <h1 class="title">PARTY-PARROT-SASS</h1>
+
+    <h3>
+      <img src="left.gif" /><img src="left.gif" /><img src="left.gif" /><img src="left.gif" />
+      <img src="right.gif" /><img src="right.gif" /><img src="right.gif" /><img src="right.gif" />
+    </h3>
+
+    <h2 class="subtitle">MAKE EVERYTHING THIS COLOURFUL</h2>
 
     <h3>What is it?</h3>
-    <p><code class="yay">party-parrot-sass</code> is a Sass mixin for making everything in your life
-      straight-hype.</p>
-    <h4>Examples!!!!</h4>
+    <p>
+      <code class="yay">party-parrot-sass</code> is a Sass mixin for making everything in your life straight-hype.
+    </p>
+    <h3>Usage</h3>
+    <ol>
+      <li>
+        Install via NPM or Bower:
+        <pre><code>$ npm install party-parrot-sass --save</code></pre>
+        <pre><code>$ bower install party-parrot-sass --save</code></pre>
+      </li>
+      <li>
+        Import into your project:
+        <pre><code>@import 'party-parrot-sass/main';</code></pre>
+      </li>
+      <li>
+        Include the mixin:
+        <pre><code>@include parrot(
+  $prop: background-color,
+  $speed: .5s,
+  $direction: normal
+);</code></pre>
+      </li>
+    </ol>
+    <h4>¡¡¡¡ <span class="examples">Examples</span> !!!!</h4>
     <ul>
-      <li><strong>No arguments</strong>
-        <pre><code>
-          @import 'party-parrot-sass/main';
-          .boring-ass-button {
-            background-color: grey; // It needs a default value for some reason.
-            display: block;
+      <li><strong>No arguments:</strong>
+        <pre><code>@import 'party-parrot-sass/main';
+.boring-ass-button {
+  // BUT THEN YOU...
+  @include parrot();
+}</code></pre>
+        <strong>Result:</strong>
+        <button class="boring-ass-button">WOOOOO</button></li>
 
-            // BUT THEN YOU...
-            @include parrot();
-          }
-        </code></pre>
-        <button class="boring-ass-button">WOOOOO</button>
+      <li>
+        <strong>Text instead of background</strong>
+        <pre><code>@import 'party-parrot-sass/main';
+.straight-up-ballin-paragraph {
+  @include parrot($prop: color);
+}</code></pre>
+        <strong>Result:</strong>
+        <p class="straight-up-ballin-paragraph">
+          ISN'T LIFE GRAND?!?!?!?!?
+        </p>
+      </li>
+
+      <li>
+        <strong>Speed and direction</strong>
+        <pre><code>@import 'party-parrot-sass/main';
+.slow-buuurn {
+  @include parrot($speed: 10s, $direction: alternate);
+}</code></pre>
+      <strong>Result:</strong>
+      <p class="slow-buuurn">
+        🔥🔥🔥🔥🔥
+      </p>
+      </li>
     </ul>
-  </div>
 
+    <a href="http://www.github.com/aendrew/party-parrot-sass">
+    <svg version="1.0" id="github" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="128.354px" height="125.186px" viewBox="0 0 128.354 125.186" enable-background="new 0 0 128.354 125.186"
+	 xml:space="preserve">
+<g>
+	<path fill-rule="evenodd" clip-rule="evenodd" d="M64.609,4.117c-33.347,0-60.388,27.035-60.388,60.387
+		c0,26.682,17.303,49.316,41.297,57.303c3.018,0.559,4.126-1.311,4.126-2.906c0-1.439-0.056-6.197-0.082-11.242
+		c-16.8,3.652-20.345-7.125-20.345-7.125c-2.747-6.98-6.705-8.836-6.705-8.836c-5.479-3.748,0.413-3.672,0.413-3.672
+		c6.063,0.426,9.257,6.225,9.257,6.225c5.386,9.23,14.127,6.562,17.573,5.02c0.542-3.902,2.106-6.568,3.834-8.076
+		c-13.413-1.525-27.514-6.705-27.514-29.843c0-6.593,2.359-11.98,6.223-16.209c-0.627-1.521-2.694-7.663,0.585-15.981
+		c0,0,5.071-1.622,16.61,6.191c4.817-1.338,9.983-2.009,15.115-2.033c5.131,0.023,10.301,0.694,15.127,2.033
+		c11.527-7.813,16.59-6.191,16.59-6.191c3.287,8.318,1.221,14.46,0.594,15.981c3.871,4.229,6.215,9.616,6.215,16.209
+		c0,23.195-14.127,28.3-27.574,29.796c2.166,1.873,4.096,5.549,4.096,11.182c0,8.08-0.07,14.584-0.07,16.572
+		c0,1.607,1.088,3.49,4.148,2.898c23.98-7.994,41.262-30.623,41.262-57.295C124.996,31.152,97.959,4.117,64.609,4.117z"/>
+	<path d="M27.093,90.821c-0.133,0.301-0.605,0.391-1.035,0.184c-0.438-0.197-0.684-0.605-0.542-0.906
+		c0.13-0.309,0.603-0.395,1.04-0.189C26.995,90.106,27.245,90.52,27.093,90.821L27.093,90.821z M26.35,90.27"/>
+	<path d="M29.54,93.549c-0.288,0.266-0.852,0.143-1.233-0.279c-0.396-0.422-0.469-0.984-0.177-1.256
+		c0.297-0.266,0.843-0.141,1.238,0.279C29.763,92.719,29.84,93.278,29.54,93.549L29.54,93.549z M28.963,92.93"/>
+	<path d="M31.92,97.026c-0.37,0.258-0.976,0.018-1.35-0.52c-0.37-0.537-0.37-1.182,0.009-1.439
+		c0.374-0.258,0.971-0.025,1.35,0.506C32.298,96.12,32.298,96.764,31.92,97.026L31.92,97.026z M31.92,97.026"/>
+	<path d="M35.182,100.387c-0.331,0.365-1.036,0.266-1.552-0.232c-0.528-0.486-0.675-1.178-0.344-1.543
+		c0.336-0.365,1.045-0.262,1.564,0.232C35.375,99.331,35.535,100.026,35.182,100.387L35.182,100.387z M35.182,100.387"/>
+	<path d="M39.682,102.338c-0.146,0.473-0.825,0.688-1.509,0.486c-0.684-0.207-1.13-0.762-0.992-1.238
+		c0.142-0.477,0.824-0.701,1.513-0.486C39.376,101.307,39.824,101.856,39.682,102.338L39.682,102.338z M39.682,102.338"/>
+	<path d="M44.625,102.7c0.017,0.498-0.563,0.91-1.281,0.92c-0.722,0.016-1.307-0.387-1.314-0.877
+		c0-0.504,0.567-0.912,1.289-0.924C44.036,101.805,44.625,102.206,44.625,102.7L44.625,102.7z M44.625,102.7"/>
+	<path d="M49.223,101.917c0.086,0.486-0.413,0.984-1.126,1.117c-0.701,0.129-1.35-0.172-1.439-0.652
+		c-0.087-0.498,0.421-0.998,1.121-1.127C48.493,101.131,49.132,101.422,49.223,101.917L49.223,101.917z M49.223,101.917"/>
+</g>
+</svg><br />
+<strong>Check it out on Github!</strong>
+</a>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/languages/scss.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

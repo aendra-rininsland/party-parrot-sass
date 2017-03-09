@@ -3,10 +3,36 @@
  * I'm being lazy with this all, so sue me.
  */
 
+@import '~normalize-scss/fork-versions/default/normalize';
+@import '~bourbon/core/bourbon';
+@import '~bitters/core/base';
 @import '../main';
 
 body {
-  @include parrot($speed: 5s);
+  @include parrot($speed: 2s);
+}
+
+h1.title {
+  font-size: 3em;
+  margin: 0;
+  @include parrot(color);
+}
+
+h2.subtitle {
+  text-decoration: underline;
+  @include parrot($prop: color, $speed: 1s)
+}
+
+.examples {
+  @include parrot($prop: color, $speed: 10s);
+}
+
+li {
+  margin-bottom: 1em;
+
+  strong {
+    display: block;
+  }
 }
 
 .container {
@@ -15,14 +41,32 @@ body {
   opacity: 0.9;
   text-align: center;
   font-size: 2em;
+  background: #ccc;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 2em;
+}
+
+code {
+  text-align: left;
 }
 
 .boring-ass-button {
-  background-color: grey;
-  display: block;
-
   // BUT THEN YOU...
   @include parrot();
 }
 
-.class
+.straight-up-ballin-paragraph {
+  @include parrot($prop: color);
+}
+
+.slow-buuurn {
+  font-size: 3em;
+  @include parrot($speed: 10s, $direction: alternate);
+}
+
+#github {
+  path {
+    @include parrot($prop: fill);
+  }
+}

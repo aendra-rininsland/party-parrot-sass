@@ -1,0 +1,28 @@
+/**
+ * gh-pages stylesheet
+ * I'm being lazy with this all, so sue me.
+ */
+
+@import './main';
+
+body {
+  @include parrot($speed: 5s);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 2em;
+}
+
+.boring-ass-button {
+  background-color: grey;
+  display: block;
+
+  // BUT THEN YOU...
+  @include parrot();
+}
+
+.class

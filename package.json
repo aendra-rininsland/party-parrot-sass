@@ -4,7 +4,8 @@
   "description": "SaSs MiXiN To BrInG ThE pArTy!!!!11!",
   "main": "_main.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass index.scss > dist/built.css"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/aendrew/party-parrot-sass/issues"
   },
-  "homepage": "https://github.com/aendrew/party-parrot-sass#readme"
+  "homepage": "https://github.com/aendrew/party-parrot-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  }
 }

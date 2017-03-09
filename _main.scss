@@ -3,16 +3,16 @@
  * ----------------------------
  * 2017 Ændrew Rininsland (@aendrew)
  * I am so, so sorry.
- * (btw: hi @chrishutchinson <3)
  */
 
 @mixin parrot($prop: background-color, $speed: 0.5s, $direction: normal) {
-  animation-name: parrot;
+  $uniq: unique_id();
+  animation-name: #{$uniq}__parrot;
   animation-duration: $speed;
   animation-direction: $direction;
   animation-iteration-count: infinite;
 
-  @keyframes parrot {
+  @keyframes #{$uniq}__parrot {
     0% {
       #{$prop}: #FD8E8D;
     }

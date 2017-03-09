@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/**
+ * gh-pages stylesheet
+ * I'm being lazy with this all, so sue me.
+ */
+/**
+ * PARTY PARROT SASS MIXIN!!!!!
+ * ----------------------------
+ * 2017 Ændrew Rininsland (@aendrew)
+ * I am so, so sorry.
+ */
+body {
+  animation-name: u03b805e8__parrot;
+  animation-duration: 5s;
+  animation-direction: normal;
+  animation-iteration-count: infinite; }
+
+@keyframes u03b805e8__parrot {
+  0% {
+    background-color: #FD8E8D; }
+  10% {
+    background-color: #FDD58E; }
+  20% {
+    background-color: #8CFD8E; }
+  30% {
+    background-color: #8CFFFE; }
+  40% {
+    background-color: #8DB6FB; }
+  50% {
+    background-color: #D690FC; }
+  60% {
+    background-color: #FD90FD; }
+  70% {
+    background-color: #FD6EF4; }
+  80% {
+    background-color: #FC6FB6; }
+  90% {
+    background-color: #FD6A6B; } }
+
+.boring-ass-button {
+  background-color: red;
+  animation-name: uf8c93602__parrot;
+  animation-duration: 0.5s;
+  animation-direction: normal;
+  animation-iteration-count: infinite; }
+
+@keyframes uf8c93602__parrot {
+  0% {
+    background-color: #FD8E8D; }
+  10% {
+    background-color: #FDD58E; }
+  20% {
+    background-color: #8CFD8E; }
+  30% {
+    background-color: #8CFFFE; }
+  40% {
+    background-color: #8DB6FB; }
+  50% {
+    background-color: #D690FC; }
+  60% {
+    background-color: #FD90FD; }
+  70% {
+    background-color: #FD6EF4; }
+  80% {
+    background-color: #FC6FB6; }
+  90% {
+    background-color: #FD6A6B; } }

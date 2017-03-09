@@ -19,7 +19,7 @@
 #### 2. Import the mixin!
 
   ```SASS
-  @import 'party-parrot-sass/_main';
+  @import 'party-parrot-sass/main';
   ```
 
 #### 3. Include it on *ERRYTHANG!!!*

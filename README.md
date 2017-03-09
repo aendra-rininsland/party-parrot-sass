@@ -36,7 +36,10 @@
 
 #### 5. PROFIT
 
+## All credit for Party Parrot (and oh so my <3) to [cultofthepartyparrot.com][cult]!
+
 
 [left]: http://cultofthepartyparrot.com/parrots/hd/parrot.gif
 [right]: http://cultofthepartyparrot.com/parrots/hd/rightparrot.gif
 [middle]: http://cultofthepartyparrot.com/parrots/hd/middleparrot.gif
+[cult]: http://cultofthepartyparrot.com/

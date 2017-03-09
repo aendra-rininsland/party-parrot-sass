@@ -9,7 +9,7 @@
 @import '../main';
 
 body {
-  font-size: 90%;
+  font-size: 90% !important;
   @include parrot($speed: 2s);
 }
 

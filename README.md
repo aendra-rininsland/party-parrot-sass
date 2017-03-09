@@ -1,6 +1,6 @@
-# ![left]![left]![left]![left]![left] PARTY PARROT SASS MIXIN!!!! ![right]![right]![right]![right]![right]
+# ![parrot][left] PARTY PARROT SASS MIXIN!!!! ![parrot][right]
 ## USE THIS TO BRING THE PARTY EVERYWHERE!
-## ![middle]![middle]![middle]![middle]![middle]![middle]![middle]![middle]![middle]![middle]
+## ![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]![parrot][middle]
 
 ### TO USE!!!!
 
@@ -37,6 +37,6 @@
 #### 5. PROFIT
 
 
-![left]: http://cultofthepartyparrot.com/parrots/hd/parrot.gif
-![right]: http://cultofthepartyparrot.com/parrots/hd/rightparrot.gif
-![middle]: http://cultofthepartyparrot.com/parrots/hd/middleparrot.gif
+[left]: http://cultofthepartyparrot.com/parrots/hd/parrot.gif
+[right]: http://cultofthepartyparrot.com/parrots/hd/rightparrot.gif
+[middle]: http://cultofthepartyparrot.com/parrots/hd/middleparrot.gif

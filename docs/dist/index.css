@@ -630,12 +630,13 @@ hr {
  * I am so, so sorry.
  */
 body {
-  animation-name: u78f09bed__parrot;
+  font-size: 90%;
+  animation-name: uacd70a1e__parrot;
   animation-duration: 2s;
   animation-direction: normal;
   animation-iteration-count: infinite; }
 
-@keyframes u78f09bed__parrot {
+@keyframes uacd70a1e__parrot {
   0% {
     background-color: #FD8E8D; }
   10% {
@@ -662,12 +663,12 @@ body {
 h1.title {
   font-size: 3em;
   margin: 0;
-  animation-name: u23d3317c__parrot;
+  animation-name: u88095e7f__parrot;
   animation-duration: 0.5s;
   animation-direction: normal;
   animation-iteration-count: infinite; }
 
-@keyframes u23d3317c__parrot {
+@keyframes u88095e7f__parrot {
   0% {
     color: #FD8E8D; }
   10% {
@@ -693,12 +694,12 @@ h1.title {
 
 h2.subtitle {
   text-decoration: underline;
-  animation-name: ue23ff81f__parrot;
+  animation-name: u63910c44__parrot;
   animation-duration: 1s;
   animation-direction: normal;
   animation-iteration-count: infinite; }
 
-@keyframes ue23ff81f__parrot {
+@keyframes u63910c44__parrot {
   0% {
     color: #FD8E8D; }
   10% {
@@ -723,12 +724,12 @@ h2.subtitle {
     color: #FD8E8D; } }
 
 .examples {
-  animation-name: u9567bb15__parrot;
+  animation-name: uf19f0b01__parrot;
   animation-duration: 10s;
   animation-direction: normal;
   animation-iteration-count: infinite; }
 
-@keyframes u9567bb15__parrot {
+@keyframes uf19f0b01__parrot {
   0% {
     color: #FD8E8D; }
   10% {
@@ -772,12 +773,12 @@ code {
   text-align: left; }
 
 .boring-ass-button {
-  animation-name: u754ebad1__parrot;
+  animation-name: u8bc0c6c0__parrot;
   animation-duration: 0.5s;
   animation-direction: normal;
   animation-iteration-count: infinite; }
 
-@keyframes u754ebad1__parrot {
+@keyframes u8bc0c6c0__parrot {
   0% {
     background-color: #FD8E8D; }
   10% {
@@ -802,12 +803,12 @@ code {
     background-color: #FD8E8D; } }
 
 .straight-up-ballin-paragraph {
-  animation-name: u9cc37f51__parrot;
+  animation-name: uf9d5444e__parrot;
   animation-duration: 0.5s;
   animation-direction: normal;
   animation-iteration-count: infinite; }
 
-@keyframes u9cc37f51__parrot {
+@keyframes uf9d5444e__parrot {
   0% {
     color: #FD8E8D; }
   10% {
@@ -833,12 +834,12 @@ code {
 
 .slow-buuurn {
   font-size: 3em;
-  animation-name: ua756b1fc__parrot;
+  animation-name: uab2850e5__parrot;
   animation-duration: 10s;
   animation-direction: alternate;
   animation-iteration-count: infinite; }
 
-@keyframes ua756b1fc__parrot {
+@keyframes uab2850e5__parrot {
   0% {
     background-color: #FD8E8D; }
   10% {
@@ -863,12 +864,12 @@ code {
     background-color: #FD8E8D; } }
 
 #github path {
-  animation-name: uc95b27a0__parrot;
+  animation-name: uddbd82fc__parrot;
   animation-duration: 0.5s;
   animation-direction: normal;
   animation-iteration-count: infinite; }
 
-@keyframes uc95b27a0__parrot {
+@keyframes uddbd82fc__parrot {
   0% {
     fill: #FD8E8D; }
   10% {
